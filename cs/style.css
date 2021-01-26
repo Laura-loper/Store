@@ -1,0 +1,203 @@
+a.nav-link{
+    color: rgb(143, 116, 136);
+    background-color: rgb(211, 199, 207)
+
+}
+
+.nav-item{
+    border: 1px solid  rgb(77, 73, 76);
+    border-radius: 1cm;
+    background-color:  #7C7C7C;
+}
+
+.nav-pills .nav-link.active,
+.show>.nav-pills .nav-link{
+    background: #f8f6f6 !important;
+}
+
+.nav-link.active{
+    background: #d4b6d3 !important;
+}
+
+a:hover{
+    color:#4b3d49 !important;
+ }
+
+.header{
+    background-color: rgb(211, 199, 207);
+    height: 1,5cm;
+    padding: .3em;
+}
+
+.first{
+    color: rgb(5, 5, 5);
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+h3{
+    text-align: center;
+}
+
+.img{
+    width: 5cm;
+}
+
+
+.table{
+    color: rgb(5, 5, 5);
+    font-size: large;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.titulo{
+    color: rgb(99, 83, 109);
+    text-align: center;
+}
+
+.zoom{
+    width: 5cm !important;
+    height: 5cm !important;
+
+    /* Aumentamos el ancho y la altura durante 1 segundo */
+    transition: width 1s, height 1s, transform 1s;
+    -moz-transition: width 1s, height 1s, -moz-transform 1s;
+    -webkit-transition: width 1s, height 1s, -webkit-transform 1s;
+    -o-transition: width 1s, height 1s,-o-transform 1s;    
+}
+.zoom:hover{
+    /* tranformamos  su tamaño al pasar el mouse por encima con scale(2.5). */
+    transform : scale(2.5);
+    -moz-transform : scale(2.5);      /* Firefox */
+    -webkit-transform : scale(2.5);   /* Chrome - Safari */
+    -o-transform : scale(2.5);        /* Opera */
+}
+
+.pie{
+    background-color: dimgray;
+    text-align: center;
+    height: 3cm;
+    font-size: 12;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+}
+
+.espacio{
+    height:80% !important;
+}
+
+.second {
+    color: rgb(5, 5, 5);
+    font-size: larger;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    word-spacing: 3em;
+    text-align: initial;
+    text-indent: 50px;
+}
+
+ /* imagen */
+ 
+ .snip0015 {
+    font-family: 'Raleway', Arial, sans-serif;
+    
+    position: relative;
+    overflow: hidden;
+    margin: 10px;
+    min-width: 180px;
+    max-width: 180px;
+    max-height: 180px;
+    width: 180px;
+    
+    text-align: center;
+  }
+  .snip0015 * {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  .snip0015 img {
+    opacity: 1;
+    width: 180px;
+    -webkit-transition: opacity 0.35s;
+    transition: opacity 0.35s;
+  }
+  .snip0015 figcaption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 3em 3em;
+    width: 100%;
+    height: 100%;
+  }
+  .snip0015 figcaption::before {
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    bottom: 50%;
+    left: 30px;
+    border-top: 1px solid rgba(255, 255, 255, 0.8);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.8);
+    content: '';
+    opacity: 0;
+    background-color: #ffffff;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+    -webkit-transition-delay: 0.6s;
+    transition-delay: 0.6s;
+  }
+  .snip0015 h2,
+  .snip0015 p {
+    margin: 0 0 5px;
+    opacity: 0;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s,-webkit-transform 0.35s,-moz-transform 0.35s,-o-transform 0.35s,transform 0.35s;
+  }
+  .snip0015 h2 {
+    word-spacing: -0.15em;
+    font-weight: 300;
+    text-transform: uppercase;
+    -webkit-transform: translate3d(0%, 50%, 0);
+    transform: translate3d(0%, 50%, 0);
+    -webkit-transition-delay: 0.3s;
+    transition-delay: 0.3s;
+  }
+  .snip0015 h2 span {
+    font-weight: 800;
+  }
+  
+  .snip0015 a {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    color: #0c0c0c;
+  }
+  .snip0015:hover img {
+    opacity: 0.35;
+  }
+  .snip0015:hover figcaption h2 {
+    opacity: 1;
+    -webkit-transform: translate3d(0%, 0%, 0);
+    transform: translate3d(0%, 0%, 0);
+    -webkit-transition-delay: 0.3s;
+    transition-delay: 0.3s;
+  }
+  
+  .snip0015:hover figcaption::before {
+    background: rgba(255, 255, 255, 0);
+    top: 30px;
+    bottom: 30px;
+    opacity: 1;
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+  }
+
+  .form {
+    border: 2cm;
+    border-color: black;
+  }
+
+
+
+
